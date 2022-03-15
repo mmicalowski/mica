@@ -1,0 +1,11 @@
+
+Data:Entrada do acompanhante 				      input(in_ac)
+Entrada:Hora da entrada 				          input (date_now) = dia mes e ano atual = (import system/date/os)
+Data de nascimento:data de nascimento calcula a idade 	input (date_nasc - date_now = idade) (dia/mes/ano atual - dia/mes/ano nascimento) = idade
+Nome:Completo do acompanhante 				input(name_ac) no_mask
+Documento: Numero documento com foto rg + cpf		input(num_rg / num_cpf) mask_cpf (não permite numeros duplicados)
+Telefone:Telefone do acompanhante 			input(ref_tel_pri) mask_tel (não permite numeros duplicados)
+Paciente:Nome do paciente a ser acompanhado		input(name_pct) no_mask
+Prontuario:(numero de prontuario atendimento)		input(num_pront) no_mask (não permite numeros duplicados)
+Pertences:Quantidade de sacos lacrados			input(num_sac) no_mask	(somente uma entrada)
+Lacre: Numeros						input(num_lacre) no mask (não perite numeros duplicados)
